@@ -1,0 +1,46 @@
+{
+  "name": "prj002-gd",
+  "version": "1.0.0",
+  "description": "second project",
+  "bin": {
+    "gendiff": "dist/bin/gendiff.js"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigin/project-lvl2-s329.git"
+  },
+  "keywords": [
+    "js",
+    "lint",
+    "learn",
+    "es6"
+  ],
+  "author": "vigin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigin/project-lvl2-s329/issues"
+  },
+  "homepage": "https://github.com/vigin/project-lvl2-s329#readme",
+  "dependencies": {
+    "hexlet-pairs": "^1.0.8",
+    "readline-sync": "^1.4.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
