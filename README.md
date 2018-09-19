@@ -8,7 +8,7 @@
 ## asciinema rec
 
 gendiff
-https://asciinema.org/a/
+https://asciinema.org/a/DPD6Flvpu2teYL618c0h5KeFZ
 
 ## Setup
 
