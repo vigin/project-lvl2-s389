@@ -1,4 +1,4 @@
-const program = require('commander');
+import program from 'commander';
 
 export const runHelp = () => {
   program
